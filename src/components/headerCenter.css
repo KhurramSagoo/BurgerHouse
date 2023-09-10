@@ -1,0 +1,31 @@
+.header--center--container{
+    height: 90vh;
+    /* height: 100%; */
+}
+.header--burger{
+    font-size: 8.5rem;
+    font-weight:bolder;
+    text-shadow:8px 4px 2px white;
+    color: 	#38220f;
+}
+.header--week{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #38220f;
+    text-shadow:8px 4px 2px white;
+
+}
+.header--burger--image{
+     position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 63%;
+
+}
+.header--line--one{
+    border: 2px dashed 	#38220f;
+    padding: 10px;
+    border-spacing: 15px;
+    color: #38220f;
+
+}

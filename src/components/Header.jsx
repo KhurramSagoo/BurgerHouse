@@ -1,6 +1,7 @@
 import { Container,Row,Col } from "react-bootstrap"
 import Top from "./Top"
 import TopNav from "./TopNav"
+import HeaderCenter from "./HeaderCenter"
 import './header.css'
 const Header = () => {
   return (
@@ -10,6 +11,8 @@ const Header = () => {
       
       <Top />
       <TopNav />
+      <HeaderCenter />
+      
       
       </Col>
     </Row>

@@ -2,7 +2,7 @@ import { Row,Container,Col } from "react-bootstrap"
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/Logo.png'
 import rider from '../assets/rider.png'
-
+import './top.css'
 const Top = () => {
   return (
     // <Navbar className="">
@@ -39,8 +39,8 @@ const Top = () => {
         </div>
         <div className=" d-flex">
 
-        <p className=" mt-2 text-dark fw-bold ">Express Delivery</p>
-        <p className=" mt-2 text-dark fw-bold ">+1 234 567 890</p>
+        <p className=" mt-2  fw-bold top--delivery ">Express Delivery</p>
+        <p className=" mt-2  fw-bold top--call ">+1 234 567 890</p>
         </div>
       </Col>
     </Row>
