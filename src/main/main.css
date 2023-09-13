@@ -1,0 +1,229 @@
+.main--image--burger{
+    width: 100%;
+}
+.main--left--image--div{
+    position: relative;
+}
+.main--right--image--div--top{
+    margin-bottom: 36px;
+}
+.main--left-p1{
+    position:absolute;
+    color: white;
+    top:25px;
+    left: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.main--left-p2{
+    position:absolute;
+    color: white;
+    top:42px;
+    left: 25px;
+    font-size: 2rem;
+}
+
+.main--right--top--1{
+    position:absolute;
+    color: #fff;
+    top:25px;
+    left:15px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.main--right--top--2{
+    position:absolute;
+    color:#fff;
+    top:45px;
+    left: 25px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.main--right--top--3{
+    position:absolute;
+    top:75px;
+    left: 25px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color:#fff;
+}
+.main--right--bottom--1{
+    position:absolute;
+    color: #fff;
+    top:25px;
+    left: 15px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.main--right--bottom--2{
+    position:absolute;
+    color:#fff;
+    top:45px;
+    left: 25px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+@media screen and (min-width:350px) and (max-width:576px) {
+    .main--right--image--div--top{
+        margin-top: 50px;
+    }
+    .main--left-p1{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+    .main--left-p2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .main--right--top--1{
+        font-size: .9rem;
+        top: 15px;
+        font-weight: normal;
+    }
+    .main--right--top--2{
+        font-size: 1rem;
+        top: 29px;
+    }
+    .main--right--top--3{
+        font-size: 1rem;
+        top: 45px;
+
+    }
+    .main--right--bottom--1{
+        font-size: .9rem;
+        font-weight: normal;
+        top: 15px;
+
+    }
+    .main--right--bottom--2{
+        font-size: 1rem;
+        top: 29px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .main--right--image--div--top{
+        margin-top: 50px;
+    }
+    .main--left-p1{
+        font-size: 1rem;
+    }
+    .main--left-p2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--1{
+        font-size: 1rem;
+    }
+    .main--right--top--2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--3{
+        font-size: 1.5rem;
+    }
+    .main--right--bottom--1{
+        font-size: 1rem;
+    }
+    .main--right--bottom--2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .main--right--image--div--top{
+        margin-top: 50px;
+    }
+    .main--left-p1{
+        font-size: 1rem;
+    }
+    .main--left-p2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--1{
+        font-size: 1rem;
+    }
+    .main--right--top--2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--3{
+        font-size: 1.5rem;
+    }
+    .main--right--bottom--1{
+        font-size: 1rem;
+    }
+    .main--right--bottom--2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .main--right--image--div--top{
+        margin-top: 50px;
+    }
+    .main--left-p1{
+        font-size: 1rem;
+    }
+    .main--left-p2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--1{
+        font-size: 1rem;
+    }
+    .main--right--top--2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--3{
+        font-size: 1.5rem;
+    }
+    .main--right--bottom--1{
+        font-size: 1rem;
+    }
+    .main--right--bottom--2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .main--left-p1{
+        font-size: 1rem;
+    }
+    .main--left-p2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--1{
+        font-size: 1rem;
+    }
+    .main--right--top--2{
+        font-size: 1.5rem;
+    }
+    .main--right--top--3{
+        font-size: 1.5rem;
+    }
+    .main--right--bottom--1{
+        font-size: 1rem;
+    }
+    .main--right--bottom--2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .main--left-p1{
+        font-size: 1.1rem;
+    }
+    .main--left-p2{
+        font-size: 1.8rem;
+    }
+    .main--right--top--1{
+        font-size: 1.1rem;
+    }
+    .main--right--top--2{
+        font-size: 1.7rem;
+    }
+    .main--right--top--3{
+        font-size: 1.7rem;
+    }
+    .main--right--bottom--1{
+        font-size: 1.1rem;
+    }
+    .main--right--bottom--2{
+        font-size: 1.7rem;
+    }
+}
