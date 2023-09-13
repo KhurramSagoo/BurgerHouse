@@ -27,7 +27,7 @@ const Top = () => {
     <Row className=" d-flex align-items-center justify-content-between ">
       <Col className=" col-4 col-sm-6 col-md-6">
         <img src={logo} alt="" className=" d-none d-sm-flex d-md-flex" />
-        <img src={logo2} alt="" className=" d-flex d-sm-none  me-auto" />
+        <img src={logo2} alt="" className=" d-flex d-sm-none pe-0 " />
         
       </Col>
 
@@ -39,10 +39,10 @@ const Top = () => {
         <p>+1 234 567 890</p> */}
 
         </div>
-        <div className=" d-flex">
+        <div className=" d-flex px-0">
 
-        <p className=" mt-2  fw-bold top--delivery d-none d-sm-none d-md-flex ">Express Delivery</p>
-        <p className=" mt-2  fw-bold top--call d-flex align-items-sm-start ">+1 234 567 890</p>
+        <p className=" mt-2  fw-bold top--delivery d-none d-sm-none d-md-flex  ">Express Delivery</p>
+        <p className=" mt-2  fw-bold top--call d-flex align-items-sm-start align-items-end justify-content-end ">+1 234 567 890</p>
         </div>
       </Col>
     </Row>
