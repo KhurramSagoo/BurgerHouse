@@ -1,6 +1,7 @@
 import { Row,Container,Col } from "react-bootstrap"
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/Logo.png'
+import logo2 from '../assets/Logo2.png'
 import rider from '../assets/rider.png'
 import './top.css'
 const Top = () => {
@@ -24,23 +25,24 @@ const Top = () => {
         <br />
         <br />
     <Row className=" d-flex align-items-center justify-content-between ">
-      <Col className="">
-        <img src={logo} alt="" />
+      <Col className=" col-4 col-sm-6 col-md-6">
+        <img src={logo} alt="" className=" d-none d-sm-flex d-md-flex" />
+        <img src={logo2} alt="" className=" d-flex d-sm-none  me-auto" />
         
       </Col>
 
-      <Col className=" d-flex align-items-center justify-content-end">
+      <Col className=" d-flex align-items-center justify-content-start justify-content-sm-end  col-8 col-sm-6 col-md-6">
         <div className=" me-2 ">
 
-        <img src={rider} alt="" />
+        <img src={rider} alt="" className=" d-flex align-items-start me-auto " />
         {/* <p>Express Delivery</p>
         <p>+1 234 567 890</p> */}
 
         </div>
         <div className=" d-flex">
 
-        <p className=" mt-2  fw-bold top--delivery ">Express Delivery</p>
-        <p className=" mt-2  fw-bold top--call ">+1 234 567 890</p>
+        <p className=" mt-2  fw-bold top--delivery d-none d-sm-none d-md-flex ">Express Delivery</p>
+        <p className=" mt-2  fw-bold top--call d-flex align-items-sm-start ">+1 234 567 890</p>
         </div>
       </Col>
     </Row>
