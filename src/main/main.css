@@ -66,6 +66,9 @@
     font-size: 1.8rem;
     font-weight: bold;
 }
+
+
+
 @media screen and (min-width:350px) and (max-width:576px) {
     .main--right--image--div--top{
         margin-top: 50px;

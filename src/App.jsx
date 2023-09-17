@@ -5,12 +5,14 @@ import Header from './components/Header';
 import './main/Main'
 import './App.css'
 import Main from './main/Main';
+import BurgerLayer from './main/BurgerLayer';
 const App = () => {
   return (
     
 <>
 <Header />
 <Main />
+<BurgerLayer />
 </>
 
 

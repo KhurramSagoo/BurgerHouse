@@ -1,0 +1,63 @@
+.layer--container{
+    /* height: 50vh; */
+    /* background: #000; */
+}
+.button--tasty{
+    background:orange;
+    padding: 10px 20px;
+    color: #38220f;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.layer--heading{
+    font-size: 3rem;
+    font-weight:900;
+    color: #38220f;
+
+}
+
+.layer--text{
+    color: #38220f;
+    font-size: 1.2rem;
+}
+/* three burger start */
+.layer--image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layer--image2{
+    /* width: 94%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layer--h1{
+    /* color: #38220f; */
+    color: #38220f;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.layer--p1{
+    color: #38220f;
+    font-size: 1.2rem;
+
+}
+.layer--button{
+    background:rgb(209, 16, 16);
+    padding: 10px 30px;
+    /* color: #38220f; */
+    color: white;
+    margin-top: 10px;
+    
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* three burger end */
