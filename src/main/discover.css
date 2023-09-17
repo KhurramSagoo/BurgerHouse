@@ -1,0 +1,41 @@
+/* CustomCarouselIndicators.css */
+.custom-carousel-indicators {
+    display: flex;
+    /* padding: 50px; */
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start; 
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+  
+  .custom-carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin: 0 6px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-carousel-indicators li.active {
+    background-color: #ffc402;
+  }
+  p{
+    color: #38220f;
+
+  }
+  
+  .discover--heading{
+    color: #38220f;
+    font-size: 3rem;
+    font-weight: 900;
+
+  }

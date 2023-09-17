@@ -6,6 +6,7 @@ import './main/Main'
 import './App.css'
 import Main from './main/Main';
 import BurgerLayer from './main/BurgerLayer';
+import Discover from './main/Discover';
 const App = () => {
   return (
     
@@ -13,6 +14,7 @@ const App = () => {
 <Header />
 <Main />
 <BurgerLayer />
+<Discover />
 </>
 
 

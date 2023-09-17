@@ -15,7 +15,7 @@ const HeaderCenter = () => {
                     <h1 className='header--week'>WEEK</h1>
                 </Col>
                 <Col className=' col-lg-6 col-md-6 col-12 col-sm-12 d-flex align-items-center justify-content-center position-relative'>
-                    <div className=" position-relative w-100">
+                    <div className=" position-relative">
 
                         <div className="two-div">
                             <div className="price-div ">
@@ -23,7 +23,6 @@ const HeaderCenter = () => {
                                 <span className='price-tag-text-span'>.49</span>
                                 </p>
                                 <p className="price-tag-text--only"> ONLY</p>
-                                {/* <!-- <img src="./price-tag-logo.png" class="logo" alt=""> --> */}
                             </div>
                         </div>
                     <img src={headerBurger} alt="burger with coke" className='header--burger--image' />
