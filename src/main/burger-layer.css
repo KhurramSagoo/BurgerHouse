@@ -1,5 +1,4 @@
 .layer--container{
-    /* height: 50vh; */
     /* background: #000; */
 }
 .button--tasty{
@@ -9,6 +8,11 @@
     border: none;
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
+.button--tasty:hover {
+    background-color: #ffbf00;
 }
 .layer--heading{
     font-size: 3rem;
@@ -54,10 +58,14 @@
     /* color: #38220f; */
     color: white;
     margin-top: 10px;
-    
+    cursor: pointer;
     border: none;
     font-size: 1.4rem;
     font-weight: bold;
+    transition: background-color 0.3s;
+}
+.layer--button:hover {
+    background-color: #FF0000;
 }
 
 /* three burger end */
