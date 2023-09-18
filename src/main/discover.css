@@ -10,11 +10,14 @@
     list-style: none;
     padding-left: 0;
   }
+
   .carousel-control-prev,
 .carousel-control-next {
+  display:none;
+}
+.carousel-indicators{
   display: none;
 }
-  
   .custom-carousel-indicators li {
     width: 15px;
     height: 15px;
