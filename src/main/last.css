@@ -1,0 +1,33 @@
+body{
+    /* background-color: black; */
+    /* color: white; */
+}
+.last--image{
+    width: 100%;
+    opacity: 50%;
+    background-size:contain;
+    height: 80vh;
+}
+.last--logo{
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 150px;
+    width: 350px;
+}
+.last--main--p--div{
+}
+.last--main--p{
+    position: absolute;
+    width: 550px;
+    top: 250px;
+    margin
+}
+
+.last--image--div{
+    position: relative;
+}
+.khurram{
+    position: absolute;
+    top: 5%;
+}

@@ -7,6 +7,9 @@ import './App.css'
 import Main from './main/Main';
 import BurgerLayer from './main/BurgerLayer';
 import Discover from './main/Discover';
+// import Book from './main/Book';
+import Last from './main/Last'
+import Fahad from './Fahad';
 const App = () => {
   return (
     
@@ -15,6 +18,8 @@ const App = () => {
 <Main />
 <BurgerLayer />
 <Discover />
+<Fahad />
+{/* <Last /> */}
 </>
 
 
