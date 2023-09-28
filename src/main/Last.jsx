@@ -2,15 +2,20 @@ import { Container, Row,Col } from 'react-bootstrap'
 import image from '../assets/last-image.png'
 import logo from '../assets/Logo.png'
 import './last.css'
-
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import MailIcon from '@mui/icons-material/Mail';
 const Last = () => {
   return (
     <Container className=' my-5'>
         <Row>
-        <Col>
+        <Col className=' h-100'>
         <div className='last--image--div'>
             <img src={image}  className='last--image'/>
-        </div>
 
             <p className='khurram text-white'>khurram</p>
             <div className='last--logo--lorem'>
@@ -21,24 +26,77 @@ const Last = () => {
             <p className='last--main--p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perferendis amet nihil, ipsam, fuga sequi architecto iste repellat magnam saepe, incidunt soluta voluptate adipisci at.</p>
             </div>
 
-        <div className='last--adress-mail--div d-flex align-items-center justify-content-center flex-column'>
-            <div className=' d-flex align-items-center justify-content-center'>icon + <p className='last--address--p'>main road</p></div>
-            <div className=' d-flex align-items-center justify-content-center'>icon + <p className='last--mail-p'> main road</p></div>
+        <p className='last--copy--para'>&copy; 2023 Company Name. All Rights Reserved.</p>
+        {/* <div className=' last--copyright--div'>
+        </div> */}
+
+        <div className='last--adress-mail--div '>
+            <div className=' d-flex align-items-center justify-content-center last--icon--div1'><LocationOnIcon 
+            style={{
+                // color: '#fff',
+                fontSize: '30px',
+                marginRight: '10px',
+                // backgroundColor: 'black',
+                // borderRadius: '50%',
+                // width: '40px',
+                // height: '40px'
+            }}/> <p className='last--address--p mb-0 text-white'> MAIN ROAD, BUILDING NAME, COUNTRY</p></div>
+
+            <div className=' d-flex align-items-center justify-content-center last--icon--div2'><MailIcon  style={{
+                // color: '#fff',
+                fontSize: '30px',
+                marginRight: '10px',
+                // backgroundColor: 'black',
+                // borderRadius: '50%',
+                // width: '40px',
+                // height: '40px'
+            }}/><p className='last--mail-p mb-0 text-white'> NFO@COMPANYNAME.COM</p></div>
         </div>
 
-        <div className=' last--copyright--div'>
-            copyright icon 
-            <img src="" alt="" className='last--copyright-icon' /> <p>
-                COMPANY NAME 2023. ALL RIGHTS RESEREVED
-            </p>
-        </div>
+        <div className='last--social-icons--div d-flex align-content-center justify-content-center'>
+            <InstagramIcon style={{
+                color: 'black',
+                backgroundColor:"white",
+                borderRadius: '50%',
+                width: '25px',
+                height: '25px',
+                padding:"3px",
+                margin:"0 5px",
+            }}/>
+            <FacebookIcon style={{
+                color: 'black',
+                backgroundColor:"white",
+                borderRadius: '50%',
+                width: '25px',
+                height: '25px',
+                padding:"3px",
+                margin:"0 5px",
 
-        <div className='last--social-icons-div d-flex align-content-center justify-content-center'>
-            social icon
-            <img src="" alt="" className=' last--social-icon'/>
+            }}/>
+            <TwitterIcon style={{
+                color: 'black',
+                backgroundColor:"white",
+                borderRadius: '50%',
+                width: '25px',
+                height: '25px',
+                padding:"3px",
+                margin:"0 5px",
+
+            }}/>
+            <WhatsAppIcon style={{
+                color: 'black',
+                backgroundColor:"white",
+                borderRadius: '50%',
+                width: '25px',
+                height: '25px',
+                padding:"3px",
+                margin:"0 5px",
+
+            }}/>
 
         </div>
         
+        </div>
         </Col>
 
         </Row>
