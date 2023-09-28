@@ -14,11 +14,11 @@ const App = () => {
   return (
     
 <>
-{/* <Header /> */}
-{/* <Main /> */}
-{/* <BurgerLayer /> */}
-{/* <Discover /> */}
-{/* <Fahad /> */}
+<Header />
+<Main />
+<BurgerLayer />
+<Discover />
+<Fahad />
 <Last />
 </>
 
