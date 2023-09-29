@@ -1,4 +1,3 @@
-// import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import headerBurger from '../assets/headerburgeredit.png'
 import './headerCenter.css'
@@ -16,16 +15,15 @@ const HeaderCenter = () => {
                 </Col>
                 <Col className=' col-lg-6 col-md-6 col-12 col-sm-12 d-flex align-items-center justify-content-center position-relative'>
                     <div className=" position-relative">
-
                         <div className="two-div">
                             <div className="price-div ">
                                 <p className="price-tag-text">$5
-                                <span className='price-tag-text-span'>.49</span>
+                                    <span className='price-tag-text-span'>.49</span>
                                 </p>
                                 <p className="price-tag-text--only"> ONLY</p>
                             </div>
                         </div>
-                    <img src={headerBurger} alt="burger with coke" className='header--burger--image' />
+                        <img src={headerBurger} alt="burger with coke" className='header--burger--image' />
 
                     </div>
                 </Col>
@@ -33,7 +31,6 @@ const HeaderCenter = () => {
             <br />
             <br />
             <br />
-            {/* <br /> */}
         </Container>
     )
 }
