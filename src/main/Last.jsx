@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import image from '../assets/last-image.png'
+import image from '../assets/lastImage.png'
 import logo from '../assets/Logo.png'
 import './last.css'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -13,8 +13,21 @@ const Last = () => {
         <Container className=' my-5'>
             <Row>
                 <Col className=' h-100'>
-                    <div className='last--image--div'>
-                        <img src={image} className='last--image' />
+                    <div className='last--image--div'
+                        style={{
+                            position: 'relative',
+                            backgroundImage: `url(${image})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            width: '100%',
+                            height: '500px', // Adjust the height as needed
+                            zIndex: 555,
+                            // filter: 'brightness(50%)',
+
+                        }}
+                   
+                     >
+                        {/* <img src={image} className='last--image' /> */}
                         <div className='last--logo--lorem'>
                             <img src={logo} alt="" className=' last--logo' />
                         </div>
@@ -38,7 +51,7 @@ const Last = () => {
                             }} /><p className='last--mail-p mb-0 text-white'> NFO@COMPANYNAME.COM</p></div>
                         </div>
 
-                        <div className='last--social-icons--div d-flex align-content-center justify-content-center'>
+                        <div className='last--social-icons--div '>
                             <InstagramIcon style={{
                                 color: 'black',
                                 backgroundColor: "white",
